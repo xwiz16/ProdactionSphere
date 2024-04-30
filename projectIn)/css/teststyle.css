@@ -1,0 +1,39 @@
+@media screen and (max-width: 1920px) {
+
+    p {
+        font-size: 20px;
+    }
+
+    .headerMainAndNavigation {
+        position: relative;
+        width: max-content;
+        left: 50%;
+        transform: translate(-50%);
+        padding: 1px 10px 1px 10px;
+        background: rgb(0, 174, 255);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 3px;
+    }
+    .headerMainAndNavigation nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    .headerMainAndNavigation nav ul li {
+        display: inline;
+        margin-left: 20px;
+    }
+    .headerMainAndNavigation nav ul li a {
+        text-decoration: none;
+        color: #fff;
+        padding: 8px 42px;
+        border: 1px black solid;
+        border-radius: 5px;
+    }
+    .headerMainAndNavigation nav ul li a:hover {
+        background-color: #82faf0; 
+        border-color: #fff; 
+        transition: background-color 0.7s ease;
+    }
+}
